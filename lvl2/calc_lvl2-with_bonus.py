@@ -16,7 +16,7 @@ COLORS = {
         "RESET" : '\033[0m' # Resets all formatting (color, style, etc.)
 }
 
-
+user_operand: str = ''
 while user_operand != EXIT_OPERAND:
     # get user operand
     user_operand: str = input(f"{COLORS['CYAN']}Enter operand:{COLORS['RESET']} ")
